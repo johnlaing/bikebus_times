@@ -1,3 +1,6 @@
+bikebus_times.zip: bikebus_times
+	zip -r bikebus_times.zip bikebus_times
+
 bikebus_times: bikebus_times.py Lexend-Medium.ttf
 	mkdir -p bikebus_times && python bikebus_times.py
 
